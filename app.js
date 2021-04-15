@@ -18,7 +18,7 @@ const Item=mongoose.model("Item",itemsschema);
 const item1= new Item({
   name:"Welcome to dolist!!"
 });
-
+/////////////////////////////////////////////////**** *//////////////////////////
 
 const defaultItems=[item1];
 
