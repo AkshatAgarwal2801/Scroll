@@ -1,8 +1,13 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(90deg, #80ffd4 50%, #E4E9FD 50%);
+  background: url("images/todobackground.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-image: -webkit-linear-gradient(90deg, #80ffd4 50%, #E4E9FD 50%); */
   min-height: 1000px;
-  font-family: "Courier New";
+  font-family: ""Sans-serif Verdana"";
 }
 
 h1 {
